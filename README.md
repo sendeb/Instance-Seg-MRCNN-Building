@@ -18,3 +18,6 @@ In this repo, I explored training a Mask RCNN on a custom dataset. The custom da
 	```
 	python calculate_metrics.py --path /path/to/your/vaihingen/pred_npys --dataset V
 	```
+
+Notes:
+I was able to get 88% dice score by using the confgurations mentioned in [this](https://pdfs.semanticscholar.org/cf20/69916c48fb99129e7a9c9573736e72e5590f.pdf) paper. Please feel free to play around with the configurations further for your use case in mask-rcnn/mrcnn/config.py
